@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+}
+
+.line {
+    width: 80px;
+    height: 7px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+#apps {
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(aqua, pink);
+    font-size: 30px;
+}
+
+#games {
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(yellow, pink);
+    font-size: 30px;
+}
+
+#chatbot {
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(lawngreen, pink);
+    font-size: 30px;
+}
+
+img {
+    transition: transform .2s;
+    width: 400px;
+    height: 400px;
+}
+
+img.hover {
+    transform: scale(0.9);
+}
